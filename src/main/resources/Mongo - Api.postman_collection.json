@@ -1,0 +1,516 @@
+{
+	"info": {
+		"_postman_id": "ca698bd1-8637-4fe4-8957-1dc1ac77adea",
+		"name": "Mongo - Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17690723"
+	},
+	"item": [
+		{
+			"name": "Get All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:55898/mongo-api/students",
+					"host": [
+						"localhost"
+					],
+					"port": "55898",
+					"path": [
+						"mongo-api",
+						"students"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get All - Response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:55898/mongo-api/students",
+							"host": [
+								"localhost"
+							],
+							"port": "55898",
+							"path": [
+								"mongo-api",
+								"students"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 22 May 2023 03:56:38 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"wwww\",\n        \"name\": \"Yesith Valencia\",\n        \"email\": \"yesithvalencia@gmail.com\",\n        \"gender\": \"MALE\",\n        \"address\": {\n            \"country\": \"Colombia\",\n            \"state\": \"Santander\",\n            \"city\": \"bucaramanga\",\n            \"postCode\": null\n        },\n        \"favoriteSubjects\": [\n            \"Math\",\n            \"Science\"\n        ],\n        \"totalSpentInBooks\": 20\n    },\n    {\n        \"id\": \"646ae23e21d48e198f1e327d\",\n        \"name\": \"Yesith Valencia\",\n        \"email\": \"yesithvalencisa@gmail.com\",\n        \"gender\": \"MALE\",\n        \"address\": {\n            \"country\": \"Colombia\",\n            \"state\": \"Santander\",\n            \"city\": \"bucaramanga\",\n            \"postCode\": null\n        },\n        \"favoriteSubjects\": [\n            \"Math\",\n            \"Science\"\n        ],\n        \"totalSpentInBooks\": 20\n    },\n    {\n        \"id\": \"646ae25321d48e198f1e327e\",\n        \"name\": \"Jaime Valencia\",\n        \"email\": \"jaimeValencia@gmail.com\",\n        \"gender\": \"MALE\",\n        \"address\": {\n            \"country\": \"Colombia\",\n            \"state\": \"Santander\",\n            \"city\": \"bucaramanga\",\n            \"postCode\": null\n        },\n        \"favoriteSubjects\": [\n            \"Math\",\n            \"Science\"\n        ],\n        \"totalSpentInBooks\": 20\n    },\n    {\n        \"id\": \"646ae26021d48e198f1e327f\",\n        \"name\": \"Jhon Doe\",\n        \"email\": \"jhonDoe@gmail.com\",\n        \"gender\": \"MALE\",\n        \"address\": {\n            \"country\": \"Colombia\",\n            \"state\": \"Santander\",\n            \"city\": \"bucaramanga\",\n            \"postCode\": null\n        },\n        \"favoriteSubjects\": [\n            \"Math\",\n            \"Science\"\n        ],\n        \"totalSpentInBooks\": 20\n    },\n    {\n        \"id\": \"646ae51721d8264f4e56e222\",\n        \"name\": \"Jhon Valencia\",\n        \"email\": \"jhonValencia@gmail.com\",\n        \"gender\": \"MALE\",\n        \"address\": {\n            \"country\": \"Colombia\",\n            \"state\": \"Santander\",\n            \"city\": \"bucaramanga\",\n            \"postCode\": null\n        },\n        \"favoriteSubjects\": [\n            \"Math\",\n            \"Science\"\n        ],\n        \"totalSpentInBooks\": 20\n    },\n    {\n        \"id\": \"646ae58421d8264f4e56e223\",\n        \"name\": \"Gerardo Valencia Ardila\",\n        \"email\": \"gerardito@gmail.com\",\n        \"gender\": \"MALE\",\n        \"address\": {\n            \"country\": \"Colombia\",\n            \"state\": \"Santander\",\n            \"city\": \"bucaramanga\",\n            \"postCode\": null\n        },\n        \"favoriteSubjects\": [\n            \"Math\",\n            \"Science\"\n        ],\n        \"totalSpentInBooks\": 30\n    },\n    {\n        \"id\": \"646ae5d22b9db9069021fb6a\",\n        \"name\": \"Martin Gomez Ardila\",\n        \"email\": \"martincho@gmail.com\",\n        \"gender\": \"MALE\",\n        \"address\": {\n            \"country\": \"Colombia\",\n            \"state\": \"Santander\",\n            \"city\": \"bucaramanga\",\n            \"postCode\": null\n        },\n        \"favoriteSubjects\": [\n            \"Math\",\n            \"Science\"\n        ],\n        \"totalSpentInBooks\": 30\n    },\n    {\n        \"id\": \"646ae6162b9db9069021fb6b\",\n        \"name\": \"Martin Gomez Ardila Esparza\",\n        \"email\": \"martinchoEsparza@gmail.com\",\n        \"gender\": \"MALE\",\n        \"address\": {\n            \"country\": \"Colombia\",\n            \"state\": \"Santander\",\n            \"city\": \"bucaramanga\",\n            \"postCode\": null\n        },\n        \"favoriteSubjects\": [\n            \"Math\",\n            \"Science\"\n        ],\n        \"totalSpentInBooks\": 30\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Save",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var response = JSON.parse(responseBody);\r",
+							"pm.environment.set(\"student_token\", response.id);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\": \"Juancho Esparza\",\r\n\t\"email\": \"Johencho@gmail.com\",\r\n\t\"gender\": \"MALE\",\r\n\t\"address\": {\r\n\t\t\"country\": \"Colombia\",\r\n\t\t\"state\": \"Santander\",\r\n\t\t\"city\": \"bucaramanga\"\r\n\t},\r\n\t\"favoriteSubjects\": [\r\n\t\t\"Math\",\r\n\t\t\"Science\"\r\n\t],\r\n\t\"totalSpentInBooks\": 33\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:55898/mongo-api/students",
+					"host": [
+						"localhost"
+					],
+					"port": "55898",
+					"path": [
+						"mongo-api",
+						"students"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Save - Response",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"name\": \"Juancho Esparza\",\r\n\t\"email\": \"Johencho@gmail.com\",\r\n\t\"gender\": \"MALE\",\r\n\t\"address\": {\r\n\t\t\"country\": \"Colombia\",\r\n\t\t\"state\": \"Santander\",\r\n\t\t\"city\": \"bucaramanga\"\r\n\t},\r\n\t\"favoriteSubjects\": [\r\n\t\t\"Math\",\r\n\t\t\"Science\"\r\n\t],\r\n\t\"totalSpentInBooks\": 33\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:55898/mongo-api/students",
+							"host": [
+								"localhost"
+							],
+							"port": "55898",
+							"path": [
+								"mongo-api",
+								"students"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 22 May 2023 03:58:00 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"646ae84870122e6ace13cdf7\",\n    \"name\": \"Juancho Esparza\",\n    \"email\": \"Johencho@gmail.com\",\n    \"gender\": \"MALE\",\n    \"address\": {\n        \"country\": \"Colombia\",\n        \"state\": \"Santander\",\n        \"city\": \"bucaramanga\",\n        \"postCode\": null\n    },\n    \"favoriteSubjects\": [\n        \"Math\",\n        \"Science\"\n    ],\n    \"totalSpentInBooks\": 33\n}"
+				}
+			]
+		},
+		{
+			"name": "Fetch by id",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var response = JSON.parse(responseBody);\r",
+							"pm.environment.set(\"student_token\", response.id);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:55898/mongo-api/students/id/{{student_token}}",
+					"host": [
+						"localhost"
+					],
+					"port": "55898",
+					"path": [
+						"mongo-api",
+						"students",
+						"id",
+						"{{student_token}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Fetch by Id - Response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:55898/mongo-api/students/id/{{student_token}}",
+							"host": [
+								"localhost"
+							],
+							"port": "55898",
+							"path": [
+								"mongo-api",
+								"students",
+								"id",
+								"{{student_token}}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 22 May 2023 03:58:38 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"646ae84870122e6ace13cdf7\",\n    \"name\": \"Juancho Esparza\",\n    \"email\": \"Johencho@gmail.com\",\n    \"gender\": \"MALE\",\n    \"address\": {\n        \"country\": \"Colombia\",\n        \"state\": \"Santander\",\n        \"city\": \"bucaramanga\",\n        \"postCode\": null\n    },\n    \"favoriteSubjects\": [\n        \"Math\",\n        \"Science\"\n    ],\n    \"totalSpentInBooks\": 33\n}"
+				}
+			]
+		},
+		{
+			"name": "Fetch by Name",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var response = JSON.parse(responseBody);\r",
+							"pm.environment.set(\"student_token\", response.id);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:55898/mongo-api/students/name/jhon",
+					"host": [
+						"localhost"
+					],
+					"port": "55898",
+					"path": [
+						"mongo-api",
+						"students",
+						"name",
+						"jhon"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Fetch by Name - Response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:55898/mongo-api/students/name/jhon",
+							"host": [
+								"localhost"
+							],
+							"port": "55898",
+							"path": [
+								"mongo-api",
+								"students",
+								"name",
+								"jhon"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 22 May 2023 03:59:13 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"646ae26021d48e198f1e327f\",\n        \"name\": \"Jhon Doe\",\n        \"email\": \"jhonDoe@gmail.com\",\n        \"gender\": \"MALE\",\n        \"address\": {\n            \"country\": \"Colombia\",\n            \"state\": \"Santander\",\n            \"city\": \"bucaramanga\",\n            \"postCode\": null\n        },\n        \"favoriteSubjects\": [\n            \"Math\",\n            \"Science\"\n        ],\n        \"totalSpentInBooks\": 20\n    },\n    {\n        \"id\": \"646ae51721d8264f4e56e222\",\n        \"name\": \"Jhon Valencia\",\n        \"email\": \"jhonValencia@gmail.com\",\n        \"gender\": \"MALE\",\n        \"address\": {\n            \"country\": \"Colombia\",\n            \"state\": \"Santander\",\n            \"city\": \"bucaramanga\",\n            \"postCode\": null\n        },\n        \"favoriteSubjects\": [\n            \"Math\",\n            \"Science\"\n        ],\n        \"totalSpentInBooks\": 20\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Update",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var response = JSON.parse(responseBody);\r",
+							"pm.environment.set(\"student_token\", response.id);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\": \"646ae84870122e6ace13cdf7\",\r\n\t\"name\": \"Juancho Esparza 33\",\r\n\t\"email\": \"Johencho@gmail.com\",\r\n\t\"gender\": \"MALE\",\r\n\t\"address\": {\r\n\t\t\"country\": \"Colombia\",\r\n\t\t\"state\": \"Santander\",\r\n\t\t\"city\": \"bucaramanga\",\r\n\t\t\"postCode\": null\r\n\t},\r\n\t\"favoriteSubjects\": [\r\n\t\t\"Math\",\r\n\t\t\"Science\"\r\n\t],\r\n\t\"totalSpentInBooks\": 333\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:55898/mongo-api/students",
+					"host": [
+						"localhost"
+					],
+					"port": "55898",
+					"path": [
+						"mongo-api",
+						"students"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update - Response",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"id\": \"646ae84870122e6ace13cdf7\",\r\n\t\"name\": \"Juancho Esparza 33\",\r\n\t\"email\": \"Johencho@gmail.com\",\r\n\t\"gender\": \"MALE\",\r\n\t\"address\": {\r\n\t\t\"country\": \"Colombia\",\r\n\t\t\"state\": \"Santander\",\r\n\t\t\"city\": \"bucaramanga\",\r\n\t\t\"postCode\": null\r\n\t},\r\n\t\"favoriteSubjects\": [\r\n\t\t\"Math\",\r\n\t\t\"Science\"\r\n\t],\r\n\t\"totalSpentInBooks\": 333\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:55898/mongo-api/students",
+							"host": [
+								"localhost"
+							],
+							"port": "55898",
+							"path": [
+								"mongo-api",
+								"students"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 22 May 2023 04:00:48 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"646ae84870122e6ace13cdf7\",\n    \"name\": \"Juancho Esparza 33\",\n    \"email\": \"Johencho@gmail.com\",\n    \"gender\": \"MALE\",\n    \"address\": {\n        \"country\": \"Colombia\",\n        \"state\": \"Santander\",\n        \"city\": \"bucaramanga\",\n        \"postCode\": null\n    },\n    \"favoriteSubjects\": [\n        \"Math\",\n        \"Science\"\n    ],\n    \"totalSpentInBooks\": 333\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:55898/mongo-api/students/{{student_token}}",
+					"host": [
+						"localhost"
+					],
+					"port": "55898",
+					"path": [
+						"mongo-api",
+						"students",
+						"{{student_token}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete - Response",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:55898/mongo-api/students/{{student_token}}",
+							"host": [
+								"localhost"
+							],
+							"port": "55898",
+							"path": [
+								"mongo-api",
+								"students",
+								"{{student_token}}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "JSON",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 22 May 2023 04:01:35 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
